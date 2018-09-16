@@ -39,10 +39,8 @@ class Scraper
     course.description = post.css("p").text
   end
 
-      Scraper.new.print_courses
-
 
 end
-    # Scraper.new.get_page
+    Scraper.new.print_courses
 
 end
